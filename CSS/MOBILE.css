@@ -1,0 +1,82 @@
+@media only screen and (max-width: 500px) {
+    .main {
+        height: 568px;
+    }
+
+    .main .box {
+        height: 568px;
+    }
+
+    nav img {
+        width: 95px;
+    }
+
+    nav a {
+        font-size: 13px;
+        font-weight: 700;
+        padding: 7px 15px;
+    }
+
+    .main .toptext1 {
+        top: 25px;
+        font-size: 31px;
+        padding: 0px 25px;
+    }
+
+    .main .toptext2 {
+        top: 45px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .main .toptext3 {
+        top: 70px;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0px 50px;
+    }
+
+    .email {
+        top: 90px;
+        height: 45px;
+        width: 270px;
+    }
+
+    .main .get {
+        top: 105px;
+        font-weight: 700;
+        height: 50px;
+        font-size: 18px;
+
+    }
+    .first{
+        width: 400px;
+        display: block;
+    }
+    .first .sectext1{
+    padding: 35px;
+        
+        width: 100%;
+    }
+    .first .sectext1 h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .first .sectext1 div{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .first .content {
+        width: 100%;
+        
+    }
+    .first img{
+    width:370px;
+    }
+    .first video{
+    width:270px;
+        top:55px;
+        left:50px;
+    }
+}
