@@ -1,10 +1,12 @@
 @media only screen and (max-width: 500px) {
     .main {
         height: 568px;
+        width: 100%;
     }
 
     .main .box {
         height: 568px;
+        width: 100%;
     }
 
     nav img {
@@ -49,34 +51,158 @@
         font-size: 18px;
 
     }
-    .first{
-        width: 400px;
+
+    .first {
+        width: 100%;
         display: block;
     }
-    .first .sectext1{
-    padding: 35px;
-        
+
+    .first .sectext1 {
+        padding: 35px;
+
         width: 100%;
     }
-    .first .sectext1 h2{
+
+    .first .sectext1 h2 {
         text-align: center;
         font-size: 30px;
     }
-    .first .sectext1 div{
+
+    .first .sectext1 div {
         text-align: center;
         font-size: 15px;
         font-weight: 500;
     }
+
     .first .content {
         width: 100%;
-        
+        display: flex;
+        justify-content: center;
+
     }
-    .first img{
-    width:370px;
+
+    .first img {
+        width: 370px;
     }
-    .first video{
-    width:270px;
-        top:55px;
-        left:50px;
+
+    .first video {
+        width: 270px;
+        top: 56px;
+        left: 0px;
+    }
+
+    .second {
+        width: 100%;
+        /* height:600px ; */
+        display: flex;
+        flex-flow: column;
+    }
+
+    .second .content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        bottom: 0px;
+        order: 1;
+    }
+
+    .second img {
+
+        width: 350px;
+
+    }
+
+    .second .content .Download {
+        height: 62px;
+        width: 260px;
+        left: 0px;
+        top: 180px;
+    }
+
+    .second .content .Download img:nth-child(1) {
+        width: 35px;
+        margin: 10px;
+    }
+
+    .second .content .Download div:nth-child(2) {
+
+        margin: 15px 0px 0px 60px;
+        font-weight: 600;
+        font-size: 14px;
+
+    }
+
+    .second .content .Download div:nth-child(3) {
+        margin: 0px 0px 0px 60px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .second .content .Download :nth-child(4) {
+        width: 40px;
+        margin: 10px;
+        display: flex;
+        bottom: 4px;
+        left: 200px;
+    }
+
+    .second .sectext2 {
+        width: 100%;
+        display: flow-root;
+        position: relative;
+        top: 0px;
+        padding: 10px;
+    }
+
+    .second .sectext2 h2 {
+        padding: 0px 0px 20px 0px;
+        text-align: center;
+        font-weight: 800;
+        font-size: 30px;
+    }
+
+    .second .sectext2 div {
+        text-align: center;
+        font-weight: 400;
+        font-size: 17px;
+        font-family: sans-serif;
+    }
+    .third {
+        width: 100%;
+        display: block;
+    }
+
+    .third .sectext3 {
+        padding: 15px;
+        width: 100%;
+    }
+
+    .third .sectext3 h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .third .sectext3 div {
+        text-align: center;
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .third .content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .third img {
+        width: 350px;
+    }
+
+    .third video {
+        width: 230px;
+        top: 20px;
+        left: 0px;
     }
 }
