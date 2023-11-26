@@ -433,7 +433,7 @@ nav a {
 }
 
 .fifth {
-    height: 900px;
+    width: 100%;
 }
 
 .fifth h2 {
@@ -478,7 +478,7 @@ nav a {
 
 .email2 {
 
-    position: relative;
+    /* position: relative; */
     z-index: 10;
     top: 25px;
     height: 55px;
@@ -491,10 +491,12 @@ nav a {
     opacity: 60%;
     border: 1px solid gainsboro;
     border-radius: 3px;
+    margin-bottom: 70px;
+    margin-top: 30px;
 }
 
 .get2 {
-    position: relative;
+    /* position: relative; */
     z-index: 10;
     top: 25px;
     height: 55px;
@@ -507,6 +509,10 @@ nav a {
     padding: 0px 20px;
     border: 0px;
     margin-left: 10px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+
+
 }
 
 footer .container {

@@ -209,4 +209,91 @@
         top: 20px;
         left: 0px;
     }
+
+    .fourth {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .fourth .content {
+        width: 100%;
+        position: relative;
+        order: 1;
+    }
+
+    .fourth img {
+
+        width: 350px;
+
+    }
+
+    .fourth .sectext4 {
+        width: 100%;
+        display: flow-root;
+        position: relative;
+        top: 0px;
+        padding: 10px;
+    }
+
+    .fourth .sectext4 h2 {
+        padding: 0px 0px 10px 0px;
+        text-align: center;
+        font-weight: 800;
+        font-size: 34px;
+    }
+
+    .fourth .sectext4 div {
+        text-align: center;
+        font-weight: 300;
+        font-size: 17px;
+        font-family: sans-serif;
+        padding: 10px;
+    }
+
+    .fifth h2 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .fifth .block{
+        font-size: 18px;
+        padding: 23px;
+        margin-left: 15px;
+    }
+
+    .fifth .block svg{
+        height: 25px;
+        width:25px ;
+    }
+
+    .fifth p{
+        font-size: 18px;
+        font-weight: 400;
+        margin:0px 20px;
+        margin-top: 40px;
+        padding: 0px 40px;
+    }
+
+    .fifth span {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .email2 {
+        margin-bottom: 10px;
+        height: 45px;
+        width: 270px;
+    }
+
+    .fifth .get2 {
+        margin-top: 10px;
+        
+        font-weight: 700;
+        height: 50px;
+        font-size: 18px;
+
+    }
+
 }
