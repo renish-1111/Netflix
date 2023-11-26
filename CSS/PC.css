@@ -515,10 +515,6 @@ nav a {
 
 }
 
-footer .container {
-    /* height: px; */
-}
-
 footer .container .top {
     display: flex;
     margin:70px 30px 30px 30px;

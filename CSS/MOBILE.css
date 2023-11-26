@@ -258,8 +258,7 @@
 
     .fifth .block{
         font-size: 18px;
-        padding: 23px;
-        margin-left: 15px;
+        padding: 20px;
     }
 
     .fifth .block svg{
@@ -295,5 +294,17 @@
         font-size: 18px;
 
     }
-
+    footer .container .top {
+        display: flex;
+        margin: 30px 30px 30px 30px;
+    }
+    footer .mid{
+        display: grid;
+        grid-template-columns:auto auto;
+        margin-left: 20px;
+        row-gap: 17px;
+    }
+    footer .mid a{
+        font-weight: 300;
+    }
 }
