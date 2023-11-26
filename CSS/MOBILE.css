@@ -1,11 +1,11 @@
 @media only screen and (max-width: 500px) {
     .main {
-        height: 568px;
+        /* height: 568px; */
         width: 100%;
     }
 
     .main .box {
-        height: 568px;
+        /* height: 568px; */
         width: 100%;
     }
 
@@ -37,15 +37,19 @@
         font-weight: 500;
         padding: 0px 50px;
     }
-
+    .main span {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
     .email {
-        top: 90px;
+        margin-bottom:10px ;
         height: 45px;
         width: 270px;
     }
 
     .main .get {
-        top: 105px;
+    
         font-weight: 700;
         height: 50px;
         font-size: 18px;
