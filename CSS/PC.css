@@ -27,7 +27,7 @@ body {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
     position: absolute;
     top: 0;
-
+    
 }
 
 nav {
@@ -52,6 +52,11 @@ nav select {
     padding: 6px 32px;
     background-color: black;
     color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+nav select:focus{
+    border: 2px solid white;
+    border-radius: 5px;
 
 }
 
@@ -65,8 +70,10 @@ nav a {
     text-decoration: none;
     font-family: sans-serif;
     color: rgb(255, 255, 255);
+}
 
-
+nav a:hover{
+    background-color: #bd050e;
 }
 
 
@@ -122,17 +129,22 @@ nav a {
     height: 55px;
     width: 360px;
     background-color: rgb(0, 0, 0);
-
     font-weight: 400;
     font-size: medium;
     padding-left: 10px;
     filter: contrast(85%);
-
+    color: white;
     opacity: 60%;
     border: 1px solid gainsboro;
     border-radius: 3px;
 }
+.email::placeholder{
+    color: white;
 
+}
+.email:focus{
+    border: 4px solid white;
+}
 
 
 .main .get {
@@ -150,6 +162,10 @@ nav a {
     border-radius: 5px;
     padding: 0px 20px;
     border: 0px;
+}
+
+.main .get:hover{
+    background-color: #bd050e;
 }
 
 .line {
@@ -296,8 +312,6 @@ nav a {
 .second .sectext2 {
     padding: 40px;
     align-self: center;
-
-
     color: rgb(255, 255, 255);
     width: 50vw;
     box-sizing: border-box;
@@ -457,6 +471,11 @@ nav a {
     justify-content: space-between;
 }
 
+.fifth .block:hover{
+    background-color: #423f3f;
+    
+}
+
 .fifth .block svg {
     direction: rtl;
 }
@@ -495,6 +514,15 @@ nav a {
     margin-top: 30px;
 }
 
+.email2::placeholder{
+    color: white;
+
+}
+.email2:focus{
+    border: 4px solid white;
+}
+
+
 .get2 {
     /* position: relative; */
     z-index: 10;
@@ -511,8 +539,10 @@ nav a {
     margin-left: 10px;
     margin-bottom: 70px;
     margin-top: 30px;
+}
 
-
+.get2:hover{
+    background-color: #bd050e;
 }
 
 footer .container .top {
@@ -555,6 +585,14 @@ footer div select {
     margin: 30px 0px 10px 30px;
     font-size: 18px;
 }
+
+footer div select:focus{
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+
 footer .Netflix{
     color: rgba(255, 255, 255, 0.7);
     font-size: 14px;
