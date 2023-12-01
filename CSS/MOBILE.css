@@ -37,19 +37,21 @@
         font-weight: 500;
         padding: 0px 50px;
     }
+
     .main span {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
     .email {
-        margin-bottom:10px ;
+        margin-bottom: 10px;
         height: 45px;
         width: 270px;
     }
 
     .main .get {
-    
+
         font-weight: 700;
         height: 50px;
         font-size: 18px;
@@ -172,6 +174,7 @@
         font-size: 17px;
         font-family: sans-serif;
     }
+
     .third {
         width: 100%;
         display: block;
@@ -256,20 +259,20 @@
         font-weight: 700;
     }
 
-    .fifth .block{
+    .fifth .block {
         font-size: 18px;
         padding: 20px;
     }
 
-    .fifth .block svg{
+    .fifth .block svg {
         height: 25px;
-        width:25px ;
+        width: 25px;
     }
 
-    .fifth p{
+    .fifth p {
         font-size: 18px;
         font-weight: 400;
-        margin:0px 20px;
+        margin: 0px 20px;
         margin-top: 40px;
         padding: 0px 40px;
     }
@@ -288,23 +291,159 @@
 
     .fifth .get2 {
         margin-top: 10px;
-        
+
         font-weight: 700;
         height: 50px;
         font-size: 18px;
 
     }
+
     footer .container .top {
         display: flex;
         margin: 30px 30px 30px 30px;
     }
-    footer .mid{
+
+    footer .mid {
         display: grid;
-        grid-template-columns:auto auto;
+        grid-template-columns: auto auto;
         margin-left: 20px;
         row-gap: 17px;
     }
-    footer .mid a{
+
+    footer .mid a {
         font-weight: 300;
     }
+}
+
+@media only screen and (min-width: 501px) and (max-width:1200px) {
+    .first .sectext1 h2 {
+        font-weight: 800;
+        font-size: 35px;
+    }
+
+    .first .sectext1 div {
+        font-weight: 200;
+        font-size: 20px;
+        font-family: sans-serif;
+    }
+
+    .first img {
+        width: 400px;
+        margin-top: 50px;
+    }
+
+    .first video {
+        width: 295px;
+        inset: 62px 0px 0px 50px;
+        margin-top: 50px;
+    }
+
+    .second .content {
+        width: 40vw;
+        margin-top: 40px;
+
+    }
+
+    .second img {
+        width: 450px;
+    }
+
+    .second .content .Download {
+        height: 70px;
+        width: 280px;
+        left: 85px;
+        top: 240px;
+    }
+
+    .second .content .Download img:nth-child(1) {
+        width: 40px;
+        margin: 10px;
+    }
+
+    .second .content .Download div:nth-child(2) {
+        margin: 15px 0px 0px 70px;
+    }
+
+    .second .content .Download div:nth-child(3) {
+        margin: 0px 0px 0px 70px;
+    }
+
+    .second .content .Download :nth-child(4) {
+        left: 210px;
+        bottom: 0px;
+    }
+
+    .second .sectext2 {
+        margin-left: 130px;
+
+    }
+
+    .second .sectext2 h2 {
+        font-size: 35px;
+
+    }
+
+    .second .sectext2 div {
+        font-size: 20px;
+
+    }
+
+    .third .sectext3 h2 {
+        font-size: 35px;
+
+    }
+
+    .third .sectext3 div {
+        font-size: 20px;
+    }
+
+    .third .content {
+        margin-top: 80px;
+        margin-right: 40px;
+    }
+
+    .third img {
+        width: 400px;
+    }
+
+    .third video {
+        width: 250px;
+        top: 20px;
+        left: 75px;
+    }
+
+    .fourth img {
+        width: 400px;
+        margin-top: 70px;
+    }
+
+    .fourth .sectext4 {
+        padding-left: 55px;
+
+    }
+
+    .fourth .sectext4 h2 {
+        font-size: 35px;
+    }
+
+    .fourth .sectext4 div {
+        font-size: 20px;
+    }
+
+    .fifth h2 {
+        font-size: 35px;
+    }
+
+    .fifth .block {
+        height: 15px;
+        margin: 10px 40px;
+        font-size: 20px;
+    }
+    .fifth .block svg{
+        height: 30px;
+    }
+    .fifth p{
+    font-size: 18px;
+    }
+
 }
